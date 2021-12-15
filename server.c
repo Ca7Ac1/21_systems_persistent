@@ -12,6 +12,7 @@ static void sighandler(int signo)
 	if (signo == SIGINT)
 	{
 		remove(WKP);
+		exit(0);
 	}
 }
 
